@@ -5,6 +5,9 @@ body{
   padding: 0;
   margin: 0;
   background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 /*Global*/
 .container{
@@ -34,7 +37,7 @@ ul{
   padding: 15px;
   background: darkgreen;
   color: white;
-  margin-top: 10px
+  margin-top: 10px;
   margin-bottom:10px;
 }
 header{
@@ -162,6 +165,9 @@ ul#services li{
   border:#cccccc solid 1px;
   margin-bottom:5px;
   background: #e6e6e6;
+}
+section{
+  flex: 1;
 }
 footer{
   padding: 20px;
