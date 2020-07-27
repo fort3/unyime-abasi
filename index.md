@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
 
-      <title> Unyime-Abasi Farms | About</title>
+      <title> Unyime-Abasi Farms | Welcome</title>
       <link rel="stylesheet" href="./css/style.css">
   </head>
 
@@ -16,15 +16,21 @@
         </div>
         <nav>
           <ul>
-            <li ><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li class="current"><a href="contact.html">Contact</a></li>
+            <li class="current"><a href="index.md">Home</a></li>
+            <li><a href="services.md">Services</a></li>
+            <li><a href="about.md">About Us</a></li>
+            <li><a href="contact.md">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Providing Agricultural Services</h1>
+      </div>
+    </section>
 
     <section id="newsletter">
       <div class="container">
@@ -36,16 +42,24 @@
       </div>
     </section>
 
-    <section id="main">
+    <section id="boxes">
       <div class="container">
-        <aside id="contact">
-          <div class="dark">
-            <h3>Contact Details</h3>
-            <p>consectetur adipisicing elit, sed do eiusmod tempor</p>
-            <p>incididunt ut labore et dolore magna aliqua</p>
-            <p>Lorem ipsum dolor sit amet</p>
-          </div>
-        </aside>
+        <h2 style="text-align:center; font-weight:bold;">Gallery</h2>
+        <div class="box">
+          <img src="./img/plantain images.jpeg">
+          <h3>Plantain Chips Processing</h3>
+          <p></p>
+        </div>
+        <div class="box">
+          <img src="./img/cassava images.jpeg">
+          <h3>Cassava Flakes(Garri) Processing</h3>
+          <p></p>
+        </div>
+        <div class="box">
+          <img src="./img/palm kernel.jpg">
+          <h3>Palm Oil Processing</h3>
+          <p></p>
+        </div>
       </div>
     </section>
 
